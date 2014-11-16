@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Helper_4._5.Attributes
+namespace Helper.Attributes
 {
     /// <summary>
     ///  Information about programmer of section of code.
