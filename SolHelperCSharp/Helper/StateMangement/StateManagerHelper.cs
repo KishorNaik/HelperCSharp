@@ -13,7 +13,7 @@ namespace Helper.StateMangement
     {
         #region Declaration
 
-        // Assign dictionary object to store data with specified the key.
+        // Assign dictionary object to store value with specified key.
         private static Dictionary<String, Object> DicStateObj = new Dictionary<string, object>();
 
         #endregion
@@ -265,6 +265,9 @@ namespace Helper.StateMangement
             }
         }
 
+        /// <summary>
+        /// This method used for to remove all values and keys.
+        /// </summary>
         public static Task RemoveAllAsync()
         {
             try
