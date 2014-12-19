@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="Attributes\ProgrammerAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registry\RegistryHelper.cs" />
     <Compile Include="StateMangement\StateManagerHelper.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
